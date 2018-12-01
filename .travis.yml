@@ -8,5 +8,4 @@ install:
 script:
   - pytest --cov=app
 after_success:
-    -codecov
-git add
+  - codecov
