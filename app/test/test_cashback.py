@@ -2,6 +2,6 @@ from app.cashback import cashback
 
 
 def test_cashback_under_limit():
-    cashback(1000)
+    result = cashback(1000)
 
     assert 50 == result
